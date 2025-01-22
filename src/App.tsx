@@ -1,4 +1,4 @@
-import { Grid, GridItem, Show, Stack } from "@chakra-ui/react";
+import { Grid, GridItem, Stack } from "@chakra-ui/react";
 
 function App() {
   return (
