@@ -12,7 +12,7 @@ const GameGrid = () => {
           sm: 1,
           md: 2,
           lg: 3,
-          xl: 4,
+          // xl: 4,
         }}
         padding={"10px"}
         gap={10}
