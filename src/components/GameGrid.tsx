@@ -8,6 +8,7 @@ interface Props {
 }
 const GameGrid = ({ selectedGenre }: Props) => {
   const { data, error, isLoading } = useGames(selectedGenre);
+  // data.map((game) => console.log(game.name));
   const skeletons = [1, 2, 3, 4, 5, 6];
   return (
     <>

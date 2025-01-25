@@ -24,6 +24,7 @@ function App() {
       <Stack hideBelow={"lg"}>
         <GridItem area={"aside"} paddingX={5}>
           <GenresList
+            selectedGenre={selectedGenre}
             onSelectedGenre={(genre) => setSelectedGenre(genre)}
           ></GenresList>
         </GridItem>
