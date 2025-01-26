@@ -1,5 +1,5 @@
 import { Card, Skeleton } from "@chakra-ui/react";
-import { SkeletonText } from "../ui/skeleton";
+import { SkeletonText } from "./ui/skeleton";
 const GameCardSkeleton = () => {
   return (
     <Card.Root maxW="sm" overflow={"hidden"}>

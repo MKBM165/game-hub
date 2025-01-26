@@ -1,6 +1,6 @@
 import { IconButton, ClientOnly, Skeleton } from "@chakra-ui/react";
 import { LuSun, LuMoon } from "react-icons/lu";
-import { useColorMode } from "../ui/color-mode";
+import { useColorMode } from "./ui/color-mode";
 
 const ColorModeSwitch = () => {
   const { toggleColorMode, colorMode } = useColorMode();

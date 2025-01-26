@@ -1,11 +1,13 @@
-import { HStack, Image, Text } from "@chakra-ui/react";
-import logo from "../assets/logo.webp";
+import { HStack, Image } from "@chakra-ui/react";
 import ColorModeSwitch from "./ColorModeSwitch";
+import logo from "../assets/logo.webp";
+import SearchBar from "./SearchBar";
+// import SearchBar from "./SearchBar";
 const NavBar = () => {
   return (
-    <HStack justifyContent={"space-between"} padding={"10px"}>
+    <HStack padding={"10px"}>
       <Image src={logo} boxSize={"60px"} />
-      <Text>Game Hub</Text>
+      <SearchBar></SearchBar>
 
       <ColorModeSwitch></ColorModeSwitch>
     </HStack>
