@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 // import SearchBar from "./SearchBar";
 const NavBar = () => {
   return (
-    <HStack padding={"10px"}>
+    <HStack justifyContent={"space-between"} padding={"10px"}>
       <Image src={logo} boxSize={"60px"} />
       <SearchBar></SearchBar>
 

@@ -4,7 +4,7 @@ import { LuSearch } from "react-icons/lu";
 
 const SearchBar = () => {
   return (
-    <InputGroup startElement={<LuSearch />}>
+    <InputGroup width={"50%"} startElement={<LuSearch />}>
       <Input
         borderRadius={20}
         placeholder="Search Here ..."
